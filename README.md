@@ -98,11 +98,11 @@ Sets the interval on how often the website is refreshed.
 **WARNING:** Setting this option on a low value can cause strain on your server!
 
 > | parameter| Explanation| Example|
-| ------ | ------ |------ |
-| s| seconds | 30s |
-| m| minutes | 5m |
-| h| hours | 3h |
-| d | days | 2d |
+> | ------ | ------ |------ |
+> | s| seconds | 30s |
+> | m| minutes | 5m |
+> | h| hours | 3h |
+> | d | days | 2d |
 
 > ```sh 
 > PLEX_INTERVAL=3h
