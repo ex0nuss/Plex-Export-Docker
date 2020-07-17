@@ -17,6 +17,7 @@ First, pull the image:
 ```sh 
 $ docker pull ex0nuss/plex-export-docker 
 ```
+<br />
 
 Create a nginx config file called `default.conf`:
 ```sh 
@@ -28,7 +29,7 @@ server {
     root /data/;
 }
 ```
-
+<br />
 
 Create the `docker-compose.yml`:
 ```sh
@@ -58,7 +59,7 @@ services:
       - plexexport-php
 ```
 
-### Further environment variables for plex-export-docker:
+## Further environment variables for plex-export-docker:
 | Name| Optional| Default value|
 | ------ | ------ |------ |
 | PLEX_URL|  No| / |
@@ -67,13 +68,13 @@ services:
 | PLEX_SORT_SKIP_WORDS | Yes | "" |
 | PLEX_INTERVAL| Yes | 60m |
 
-##### PLEX_URL
+#### PLEX_URL
 It's recommended to use the internal URL in the format: `http://Plex_Meida_Server_IP:Port`
 > ```sh 
 > PLEX_URL=http://192.168.1.100:32400
 > ```
 
-##### PLEX_TOKEN
+#### PLEX_TOKEN
 The token to authenticate Plex-Export with your Plex Media Server
 > ```sh 
 > PLEX_TOKEN=XXX
@@ -81,20 +82,20 @@ The token to authenticate Plex-Export with your Plex Media Server
 > To find the token visit https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token
 
 
-##### PLEX_SECTIONS
+#### PLEX_SECTIONS
 The Plex-libraries you want to display
 > E.g.: You have three libraries Movies, Tvshows and Videos, but you only want to display Movies and Tvshows.
 > ```sh 
 > PLEX_SECTIONS=Movies,Tvshows
 > ```
 
-##### PLEX_SORT_SKIP_WORDS 
+#### PLEX_SORT_SKIP_WORDS 
 If you want to leave out certain words like "the" or "a" when sorting the website.
 > ```sh 
 > PLEX_SORT_SKIP_WORDS=a,the
 > ```
 
-##### PLEX_INTERVAL
+#### PLEX_INTERVAL
 Sets the interval on how often the website is refreshed. 
 **WARNING:** Setting this option on a low value can cause strain on your server!
 
