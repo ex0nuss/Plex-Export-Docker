@@ -1,6 +1,7 @@
 # Plex-Export-Docker
 A dockerized version of Dachande663/Plex-Export
 
+Dockerhub: https://hub.docker.com/r/ex0nuss/plex-export-docker
 
 ## Summary
 This is a dockerized version of [Dachande663/Plex-Export](https://github.com/Dachande663/Plex-Export)
@@ -10,7 +11,7 @@ This is a dockerized version of [Dachande663/Plex-Export](https://github.com/Dac
 The container is based on the php:alpine image.
 A webserver like **Nginx or Apache is needed** to serve the website (see below for an **example with nginx**).
 
-## How to use it with Nginx
+## How to use it with Docker-Compose & Nginx
 
 First, pull the image:
 ```sh 
