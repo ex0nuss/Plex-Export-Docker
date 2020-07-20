@@ -11,6 +11,10 @@ This is a dockerized version of [Dachande663/Plex-Export](https://github.com/Dac
 The container is based on the php:alpine image.
 A webserver like **Nginx or Apache is needed** to serve the website (see below for an **example with nginx**).
 
+<img src="https://github.com/ex0nuss/Plex-Export-Docker/blob/master/screenshot.jpg" width=50% height=50% />
+
+
+
 ## How to use it with Docker-Compose & Nginx
 
 First, pull the image:
