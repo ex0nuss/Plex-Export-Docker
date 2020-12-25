@@ -36,7 +36,7 @@ server {
 <br />
 
 Create the `docker-compose.yml`:
-```sh
+```YAML
 version: '3'
 
 services:
