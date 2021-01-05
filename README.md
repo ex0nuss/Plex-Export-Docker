@@ -1,5 +1,5 @@
 # Plex-Export-Docker
-A dockerized version of Dachande663/Plex-Export
+A dockerized version of [Dachande663/Plex-Export](https://github.com/Dachande663/Plex-Export) with [dpDesignz/plex-export-responsive-skin](https://github.com/dpDesignz/plex-export-responsive-skin)
 
 Dockerhub: https://hub.docker.com/r/ex0nuss/plex-export-docker
 
