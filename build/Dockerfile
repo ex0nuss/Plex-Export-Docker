@@ -13,8 +13,10 @@ RUN apk update && apk add --no-cache git
 
 #Clones git repo (content) into /var/www/html
 WORKDIR /app
-RUN git clone https://github.com/Dachande663/Plex-Export.git .
-
+RUN git clone https://github.com/Dachande663/Plex-Export.git . &&\
+    git clone https://github.com/dpDesignz/plex-export-responsive-skin &&\
+    cp -rf plex-export-responsive-skin/* ./ &&\
+    rm LICENSE README.md
 
 #Copies entrypoint-script for modifying .env-file
 COPY entrypoint.sh /
