@@ -9,9 +9,9 @@ This is a dockerized version of [Dachande663/Plex-Export](https://github.com/Dac
 > Plex Export allows you to produce an HTML page with information on the media contained within your Plex library. This page can then be shared publicly without requiring access to the original Plex server.
 
 The container is based on the php:alpine image.
-A webserver like **Nginx or Apache is needed** to serve the website (see below for an **example with nginx**).
+A webserver like **Nginx or Apache is needed** to serve the website (see below for an **example with nginx**). Having PHP and Nginx in the same container could cause an security risk and is against the microservices approach.
 
-<img src="https://github.com/ex0nuss/Plex-Export-Docker/blob/master/screenshot.jpg" width=50% height=50% />
+<img src="screenshot.jpg" width=50% height=50% />
 
 
 
