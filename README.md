@@ -11,7 +11,7 @@ This is a dockerized version of [Dachande663/Plex-Export](https://github.com/Dac
 The container is based on the php:alpine image.
 A webserver like **Nginx or Apache is needed** to serve the website (see below for an **example with nginx**). Having PHP and Nginx in the same container could cause an security risk and is against the microservices approach.
 
-<img src="screenshot.jpg" width=50% height=50% />
+<img src="https://raw.githubusercontent.com/ex0nuss/Plex-Export-Docker/master/screenshot.jpg" width=50% height=50% />
 
 
 
